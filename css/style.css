@@ -3,7 +3,7 @@
 }
 
 body{
-    background-color: #edeff3;
+    background-color: #f5f9f9;
    
     
 }
@@ -136,12 +136,13 @@ font-weight: 600;
 .upper-cards{
     height: 80px;
     width: 500px;
+    background-color: #fff;
     border: 2px solid transparent;
     border-radius: 10px;
-    box-shadow:0 10px 15px -3px rgba(0,0,0,.1) ;
+    box-shadow:0 10px 15px -1px rgba(0,0,0,.1) ;
     font-size: 16px;
     margin: 7px;
-    background-color: transparent;
+    
 }
 
 
@@ -176,7 +177,7 @@ font-weight: 600;
     text-align: center;
     border: 5px solid transparent;
     border-radius: 10px;
-    box-shadow:0 10px 15px -3px rgba(0,0,0,.1) ;
+    box-shadow:0 10px 15px -1px rgba(0,0,0,.1) ;
     margin: 84px auto;
     padding: 24px;
     background-color: #fff;
@@ -223,7 +224,7 @@ font-weight: 600;
     background-color: #fff;
     border: 5px solid transparent;
     border-radius: 10px;
-    box-shadow:0 10px 15px -3px rgba(0,0,0,.1) ;
+    box-shadow:0 10px 15px -1px rgba(0,0,0,.1) ;
 }
 
 .to-choose-img{
@@ -232,7 +233,7 @@ font-weight: 600;
     display: inline-block;
     border: 5px solid transparent;
     border-radius: 10px;
-    box-shadow:0 10px 15px -3px rgba(0,0,0,.1) ;
+    box-shadow:0 10px 15px -1px rgba(0,0,0,.1) ;
     padding: 5px;
     background-color: #fff;
 }
@@ -243,3 +244,55 @@ font-weight: 600;
     margin:20px;
     text-align: center;
 }
+
+/* ***to choose cards ***/
+
+.choose-card-content{
+    height: 180px;
+    width: 320px;
+    margin: 40px 22px;
+    padding: 0 10px;
+    background-color: #fff;
+    border: 5px solid transparent;
+    border-radius: 10px;
+    box-shadow:0px 10px 15px -1px rgba(0,0,0,.1) ;
+   }
+
+
+   .to-choose-img{
+    height: 43px;
+    width: 43px;
+    display: inline-block;
+    border: 5px solid transparent;
+    border-radius: 10px;
+    box-shadow:0 10px 15px -1px rgba(0,0,0,.1) ;
+   
+    padding: 8px;
+   }
+
+   .choose-card{
+    display: flex;
+    
+   }
+
+   .to-choose-heading{
+    margin-left: 12px;
+    font-size: 18px;
+    font-family:"Rubik", sans-serif;
+    font-weight: 500;
+    
+   }
+
+   .to-choose-descrip{
+    margin-top: 0;
+    color:#6b7280 ;
+    padding: 8px;
+
+   }
+
+   .to-choose-cards-content{
+    display: flex;
+    justify-content: start;
+    flex-wrap: wrap;
+    margin: 50px;
+   }
